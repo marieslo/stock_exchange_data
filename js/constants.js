@@ -1,8 +1,8 @@
 export const
-searchButton = document.getElementById('search-button'),
-userInput = document.getElementById('user-input'),
-spinner = document.getElementById('spinner'),
-tableResults = document.getElementById('table-results'),
+// searchButton = document.getElementById('search-button'),
+// userInput = document.getElementById('user-input'),
+// spinner = document.getElementById('spinner'),
+// tableResults = document.getElementById('table-results'),
 baseURL= `https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/`,
 serverURL = ('https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com'),
 queryURL = `/api/v3/search?query=`,
