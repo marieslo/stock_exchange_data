@@ -14,7 +14,7 @@ class SearchResult {
   
     async fetchResults() {
         try{
-            const response = await fetch(this.baseURL + `/search?query=${this.userInput.value}&exchange=NASDAQ`)
+            const response = await fetch(`https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/search?query=${userInput.value}&limit=10&exchange=NASDAQ`)
             const data = await response.json()
             return data
         }
