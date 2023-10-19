@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+
+:root{
+    color: #0c0e10;
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    max-width: 600px;
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 600px){
+:root{
+    margin-left: 10%;
+}
+}
+
+input{
+    width: 200px;
+    height: 38px;
+    margin-bottom: 30px;
+    text-align: left; 
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-size: 10px;
+
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    color: rgb(64, 200, 224);
+}
+
+.btn{
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    cursor: pointer;
+    height: 38px;
+    width: 50px;
+}
+
+.material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+#table-results{
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+}
+
+.company-profile-page{
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+}
+
+.nav-btn{
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#myChart{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20[x];
+    width: 50%;
+}
+
+p {
+    font-size: 12px;
+}
+
+.company-name{
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.link {
+    color: #0c0e10;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+    font-size: 8px;
+}
+
+.header{
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    color: rgb(64, 200, 224);
+    margin-top: 100px;
+}
+
+  .marquee {
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    height: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1rem;
+    animation: animate 2000s linear infinite;
+    display: inline-block;
+  }
+  
+  span {
+    font-size: 1rem;
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
