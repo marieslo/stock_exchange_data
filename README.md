@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, you will build a multipage stock exchange data website using the Financial Modeling Prep API. The website will feature stock search functionality, company profiles, stock price history charts, and a stock ticker marquee. 
+A multipage stock exchange data website using the Financial Modeling Prep API. The website will feature stock search functionality, company profiles, stock price history charts, and a stock ticker marquee. 
 
 The project will be built using HTML, CSS, JavaScript (Vanilla JS), and Chart.js for visualizing stock data.
 
