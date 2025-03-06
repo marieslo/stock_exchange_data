@@ -1,16 +1,11 @@
 # Stock Exchange Data Website
 
-## Project Overview
-
-A multipage stock exchange data website using the Financial Modeling Prep API. The website will feature stock search functionality, company profiles, stock price history charts, and a stock ticker marquee. 
-
-The project will be built using HTML, CSS, JavaScript (Vanilla JS), and Chart.js for visualizing stock data.
+The website features stock search functionality, company profiles, stock price history charts, and a stock ticker marquee. 
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (Vanilla JS), Chart.js
+- **Frontend:** HTML, CSS, Vanilla JS, [Chart.js](https://www.chartjs.org/) 
 - **Tools:** Parcel (for bundling), Live Server (for live reloading)
-- **API:** Financial Modeling Prep (FMP) for stock data
-- **CSS:** Animations (e.g., keyframes for stock ticker)
+- **API:** [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) for stock data
 
 ## Interface
 
